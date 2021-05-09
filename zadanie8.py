@@ -1,0 +1,3 @@
+samochody = ['syrena', 'poloneza']
+
+print
