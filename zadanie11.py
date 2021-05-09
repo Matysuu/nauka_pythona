@@ -7,3 +7,10 @@ magazyn = [
 
 for pozycja in magazyn:
     print(pozycja['nazwa'])
+
+bug = 'X2X'
+
+if bug in magazyn:
+    print("znaleziono {0}".format(bug))
+else:
+    print("Brak w magazynie {0}".format(bug))
